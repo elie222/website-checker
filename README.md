@@ -1,22 +1,22 @@
 # Website Spell Checker
 
-This app will spell check and grammar check any website.
+A fast, browser-based tool that checks spelling and grammar on any webpage.
 
-The code was generated using [Bolt.new](https://bolt.new).
+![Website Spell Checker Screenshot](./docs/screenshot.png)
 
-For testing it uses [Shortest](https://github.com/anti-work/shortest).
+Built with [Bolt.new](https://bolt.new) and tested using [Shortest](https://github.com/anti-work/shortest).
 
-## Run it
+## Quick Start
 
 ```sh
 pnpm
 pnpm dev
 ```
 
-## Test it with Shortest
+## Testing
 
 ```sh
 pnpm shortest
 ```
 
-View test screenshots output in the `.shortest` folder (gitignored).
+Test screenshots are saved to the `.shortest` folder (gitignored).

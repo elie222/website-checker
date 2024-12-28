@@ -36,7 +36,7 @@ export async function POST(req: Request) {
           content: textContent.substring(0, 4000), // Limit text length
         },
       ],
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4o-mini',
     });
 
     return NextResponse.json({
